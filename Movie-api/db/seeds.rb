@@ -11,10 +11,10 @@
 Movie.destroy_all
 movies = Movie.create([
 
-    { id:1, title:"Matrix", genre:"Action", release_date:"1999", director:"Wachowski", poster_url:"http://bit.ly/2lddQm8" },
-    { id:2, title:"John Wick", genre:"Romance", release_date:"2017", director:"Stahelski", poster_url:"http://bit.ly/2m9f94I" },
-    { id:3, title:"Point Break", genre:"Thriller", release_date:"1991", director:"Bigelow", poster_url:"http://bit.ly/2lVCWVn"  },
-    { id:4, title:"Keanu", genre:"Comedy", release_date:"2016", director:"Atencio", poster_url:"http://bit.ly/2lVNTGx"},
-    { id:5, title:"Constantine", genre:"Religious", release_date:"2005", director:"John", poster_url:"http://bit.ly/2mjxoVj"},
+    { user_id:1, title:"Matrix", genre:"Action", release_date:"1999", director:"Wachowski", poster_url:"http://bit.ly/2lddQm8" },
+    { user_id:2, title:"John Wick", genre:"Romance", release_date:"2017", director:"Stahelski", poster_url:"http://bit.ly/2m9f94I" },
+    { user_id:1, title:"Point Break", genre:"Thriller", release_date:"1991", director:"Bigelow", poster_url:"http://bit.ly/2lVCWVn"  },
+    { user_id:2, title:"Keanu", genre:"Comedy", release_date:"2016", director:"Atencio", poster_url:"http://bit.ly/2lVNTGx"},
+    { user_id:1, title:"Constantine", genre:"Religious", release_date:"2005", director:"John", poster_url:"http://bit.ly/2mjxoVj"},
 
 ])
